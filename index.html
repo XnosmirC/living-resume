@@ -1,321 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brandon Willenborg's Living Resume</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandon Willenborg's Living Resume</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F51F4RMNFK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F51F4RMNFK');
+</script>
+
+
 </head>
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 <script>
-    AOS.init();
+
 </script>
 <body>
-    <header class="hero">
-        <h1>Brandon Willenborg</h1>
-        <p>
-            Veteran • Tech Enthusiast • Career Student
+  <header class="hero">
+    <h1>Brandon Willenborg</h1>
+    <p>Veteran • Tech Enthusiast • Career Student</p>
+  </header>
+
+  AOS.init();
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+<div class="container">
+
+  <main>
+    <section id="about">
+          <h2>About Me</h2>
+          <p>
+            I am a veteran of Iraq and Afghanistan. I served in Iraq with 2nd Brigade/4th Infantry Division and in Afghanistan with 2nd Brigade/101st Airborne Division.
+            As a veteran, I have a deep understanding of the challenges of war and the importance of teamwork and leadership. After the Army, I tried many things, but
+            nothing stuck. Until I tried my hand at welding in 2019. Since then, I have recently wanted to change my career field and pursue a career in tech.
+          </p>
+    </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul class="skills-grid">
+            <li>Basic Python Syntax</li>
+            <li>Linux Command Line</li>
+            <li>Basic HTML</li>
+            <li>Command Line Interface (CLI)</li>
+            <li>Security Information and Event Management (SIEM)</li>
+            <li>Basic Networking</li>
+            <li>Basic Cybersecurity Concepts</li>
+            <li>Basic Git Commands</li>
+            <li>Basic SQL Queries</li>
+            <li>Version Control with Git</li>
+            <li>Steel MIG Welding</li>
+            <li>Steel TIG Welding</li>
+            <li>Steel Stick Welding</li>
+            <li>Aluminum MIG Welding</li>
+            <li>Aluminum TIG Welding</li>
+            <li>Attention to Detail</li>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+            <li>Teamwork</li>
+            <li>Communication</li>
+            <li>Leadership</li>
+            <li>Adaptability</li>
+            <li>Critical Thinking</li>
+            <li>Microsoft Office Suite</li>
+            <li>Kali Linux</li>
+            <li>Wireshark</li>
+            <li>NMAP</li>
+          </ul>
+          <p>
+            *More skills can be found on my
+            <a href="https://www.linkedin.com/in/brandon-willenborg-9a107965/" target="_blank">LinkedIn</a> profile.
+          </p>
+    </section>
+  </main>
+
+<section id="experience">
+    <h2>Work Experience</h2>
+    <div class="experience-grid">
+
+      <div class="job">
+        <h3>Forklift Operator at Tracker Marine, Missouri</h3>
+        <p>August 2024 - January 2025</p>
+        <p>Operated a forklift for the maintenance department</p>
+      </div>
+
+      <div class="job">
+        <h3>Welder at Tracker Marine, Missouri</h3>
+        <p>October 2020 - August 2024</p>
+        <p>Welded various parts for BassPro's Tracker boats</p>
+      </div>
+
+      <div class="job">
+        <h3>Welder at Bear Trailers, Missouri</h3>
+        <p>September 2020 - September 2020</p>
+        <p>Welded various parts for Bear Trailers</p>
+      </div>
+
+      <div class="job">
+        <h3>Welder at TAG Manufacturing, Tennessee</h3>
+        <p>February 2020 - August 202020</p>
+        <p>Welded various excavation buckets and parts for TAG Manufacturing</p>
+      </div>
+
+      <div class="job">
+        <h3>Order Picker at Amazon Fullfillment, Tennessee</h3>
+        <p>October 2018 - November 2018</p>
+        <p>Picked customers orders for Amazon</p>
+      </div>
+
+      <div class="job">
+        <h3>Order Picker at Amazon Fulfillment, Tennessee</h3>
+        <p>June 2017 - August 2017</p>
+        <p>Picked customers orders for Amazon</p>
+      </div>
+
+      <div class="job">
+        <h3>Each Receive at Amazon Fulfillment, Tennessee</h3>
+        <p>June 2016 - July 2016</p>
+        <p>Cataloged small to medium incoming inverntory for Amazon</p>
+      </div>
+
+      <div class="job">
+        <h3>Pallet Receive at Amazon Fulfillment, Tennessee</h3>
+        <p>June 2015 - August 2015</p>
+        <p>Cataloged large incoming inventory for Amazon</p>
+      </div>
+
+      <div class="job">
+        <h3>Cannon Crewmember for 2ACR, Germany</h3>
+        <p>October 2012 - February 2014</p>
+        <p>Trained, lead, and supervised sections(squads) of soldiers for combat and field exersize training for the M777 howitzer</p>
+      </div>
+
+      <div class="job">
+        <h3>Cannon Crewmember for 1/320FAR, 2BCT/101Airborne, Kentucky</h3>
+        <p>December 2009 - October 2012</p>
+        <p>Trained, trained, and trained to be the best M119 howitzer section in all of the 101st Airborne Division, also had a deployment to Afghanistan</p>
+      </div>
+
+      <div class="job">
+        <h3>Cannon Crewmember for 3/16FAR, 2BCT/4ID, Colorado</h3>
+        <p>December 2007 - December 2009</p>
+        <p>Trained, trained, and trained on the M109A6 howitzer. Also had a deployment to Iraq</p>
+      </div>
+
+      <div class="job">
+        <h3>Private for US Army, Okalahoma</h3>
+        <p>July 2007 - December 2007</p>
+        <p>Basic Combat Training and Advanced Individual Training</p>
+      </div>
+
+  </div>
+</section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>This website</h3>
+        <p>This is the website you're looking at right now. It's built from scratch with HTML, CSS, and a lot of help from the internet.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Random Password Generator</h3>
+        <p>A lightweight program written in Python that generates random passwords with options to choose from for further customization and will not log your password.
+          You can find it on my GitHub <a href="https://github.com/XnosmirC/RandomPasswordGenerator" target="_blank">here</a> or on my itch.io <a href="https://crimsonx89.itch.io/rpg1-0" target="_blank">here</a>.
         </p>
-    </header>
+      </div>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+      <div class="project-card">
+        <h3>Ubuntu LTS Server</h3>
+        <p>I took my old desktop computer and turned it into a server running Ubuntu LTS. I also set up an OpenVPN server on it for fun.</p>
+      </div>
 
-    <div class="container">
+      <div class="project-card">
+        <h3>Takt Timer</h3>
+        <p>A simple program written in Python or HTML that counts down the time and items created or finished. You can find it on my GitHub <a href="https://github.com/XnosmirC/Takt-Time" target="_blank">here</a>.</p>
+      </div>
 
-        <main>
-            <section id="about">
-                <h2>About Me</h2>
-                <p>
-                    I am a veteran of Iraq and Afghanistan. I served in Iraq with 2nd Brigade/4th Infantry Division and in Afghanistan with 2nd Brigade/101st Airborne Division.
-                    As a veteran, I have a deep understanding of the challenges of war and the importance of teamwork and leadership. After the Army, I tried many things, but
-                    nothing stuck, until I tried my hand at welding in 2019. I have recently wanted to change my career field and pursue a career in tech.
-                </p>
-            </section>
+      <div class="project-card">
+        <h3>Random Game Launcher (WIP)</h3>
+        <p>A program written in Python that attempts to randomly launch a game on your system. It currently launches any `.exe` in the specified directory. Find it on my GitHub <a href="https://github.com/XnosmirC/Random-Game-Generator" target="_blank">here</a>.</p>
+      </div>
 
-            <section id="skills">
-                <h2>Skills</h2>
-                <ul class="skills-grid">
-                    <li>Basic Python Syntax</li>
-                    <li>Linux Command Line</li>
-                    <li>Basic HTML</li>
-                    <li>Command Line Interface (CLI)</li>
-                    <li>Security Information and Event Management (SIEM)</li>
-                    <li>Basic Networking</li>
-                    <li>Basic Cybersecurity Concepts</li>
-                    <li>Basic Git Commands</li>
-                    <li>Basic SQL Queries</li>
-                    <li>Version Control with Git</li>
-                    <li>Steel MIG Welding</li>
-                    <li>Steel TIG Welding</li>
-                    <li>Steel Stick Welding</li>
-                    <li>Aluminum MIG Welding</li>
-                    <li>Aluminum TIG Welding</li>
-                    <li>Attention to Detail</li>
-                    <li>Problem Solving</li>
-                    <li>Time Management</li>
-                    <li>Teamwork</li>
-                    <li>Communication</li>
-                    <li>Leadership</li>
-                    <li>Adaptability</li>
-                    <li>Critical Thinking</li>
-                    <li>Microsoft Office Suite</li>
-                    <li>Kali Linux</li>
-                    <li>Wireshark</li>
-                    <li>NMAP</li>
-                </ul>
-                <p>
-                    *More skills can be found on my
-                    <a href="https://www.linkedin.com/in/brandon-willenborg-9a107965/" target="_blank">LinkedIn</a> profile.
-                </p>
-            </section>
-        </main>
+      <div class="project-card">
+        <h3>Console Refurbishment and Modding</h3>
+        <p>I like to tinker and solve puzzles. I've worked on several console refurbishments and mods—one of my favorites being my original GBA, rebuilt with a backlit IPS screen, new shell, rechargeable USB-C battery, and new buttons. You can find that project <a href="https://www.facebook.com/profile.php?id=61563477784189" target="_blank">here</a>.</p>
+      </div>
+    </section>
 
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <div class="experience-grid">
+    <section id="education">
+      <h2>Education</h2>
+      <p>Chattanooga State Community College - Welding Technologies - 2019</p>
 
-                <div class="job">
-                    <h3>Forklift Operator at Tracker Marine, Missouri</h3>
-                    <p>
-                        August 2024 - January 2025
-                    </p>
-                    <p>
-                        Operated a forklift for the maintenance department
-                    </p>
-                </div>
+      <h2>Coursera Certifications</h2>
+      <p><a href="https://www.credly.com/badges/5540b261-5081-40d9-9b70-1a537237cb20/linked_in_profile" target="_blank">Google Cybersecurity Professional Certificate</a></p>
+      <p><a href="https://www.coursera.org/account/accomplishments/specialization/4QFP7CXLL86E" target="_blank">Google IT Automation with Python Certificate</a></p>
+      <p><a href="https://coursera.org/share/e46f0ecd1fa40b40bbcfd34811518eb2" target="_blank">Google AI Essentials Certificate</a></p>
+    </section>
 
-                <div class="job">
-                    <h3>Welder at Tracker Marine, Missouri</h3>
-                    <p>
-                        October 2020 - August 2024
-                    </p>
-                    <p>
-                        Welded various parts for BassPro's Tracker boats
-                    </p>
-                </div>
+    <section id="Additional Notes">
+      <h2>Additional Notes</h2>
+      <p>I'm currently looking for a job in the tech industry, preferably in cybersecurity or IT. I have a passion for learning and am always eager to take on new challenges.</p>
 
-                <div class="job">
-                    <h3>Welder at Bear Trailers, Missouri</h3>
-                    <p>
-                        September 2020 - September 2020
-                    </p>
-                    <p>
-                        Welded various parts for Bear Trailers
-                    </p>
-                </div>
+      <h2>Job Requirements</h2>
+      <li>I am willing to work remotely.</li>
+      <li>I am not willing to relocate.</li>
+      <li>I will not work for less than $18/hour USD.</li>
+      <li>I am will not work for "Sales" or "Commission".</li>
+      <li>I am willing to learn new things.</li>
+      <li>I will not commute longer than 45 minutes one way from Waynesville, MO.</li>
+      </section>
 
-                <div class="job">
-                    <h3>Welder at TAG Manufacturing, Tennessee</h3>
-                    <p>
-                        February 2020 - August 202020
-                    </p>
-                    <p>
-                        Welded various excavation buckets and parts for TAG Manufacturing
-                    </p>
-                </div>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you're interested in giving me a job, please use the form below. If not, please don't waste my time.</p>
+      <form action="https://formspree.io/f/manjpnee" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" required />
 
-                <div class="job">
-                    <h3>Order Picker at Amazon Fullfillment, Tennessee</h3>
-                    <p>
-                        October 2018 - November 2018
-                    </p>
-                    <p>
-                        Picked customers orders for Amazon
-                    </p>
-                </div>
+        <label for="email">Your Email</label>
+        <input type="email" name="email" id="email" required />
 
-                <div class="job">
-                    <h3>Order Picker at Amazon Fulfillment, Tennessee</h3>
-                    <p>
-                        June 2017 - August 2017
-                    </p>
-                    <p>
-                        Picked customers orders for Amazon
-                    </p>
-                </div>
+        <label for="message">Your Message</label>
+        <textarea name="message" id="message" rows="6" required></textarea>
 
-                <div class="job">
-                    <h3>Each Receive at Amazon Fulfillment, Tennessee</h3>
-                    <p>
-                        June 2016 - July 2016
-                    </p>
-                    <p>
-                        Cataloged small to medium incoming inverntory for Amazon
-                    </p>
-                </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
 
-                <div class="job">
-                    <h3>Pallet Receive at Amazon Fulfillment, Tennessee</h3>
-                    <p>
-                        June 2015 - August 2015
-                    </p>
-                    <p>
-                        Cataloged large incoming inventory for Amazon
-                    </p>
-                </div>
-
-                <div class="job">
-                    <h3>Cannon Crewmember for 2ACR, Germany</h3>
-                    <p>
-                        October 2012 - February 2014
-                    </p>
-                    <p>
-                        Trained, lead, and supervised sections(squads) of soldiers for combat and field exersize training for the M777 howitzer
-                    </p>
-                </div>
-
-                <div class="job">
-                    <h3>Cannon Crewmember for 1/320FAR, 2BCT/101Airborne, Kentucky</h3>
-                    <p>
-                        December 2009 - October 2012
-                    </p>
-                    <p>
-                        Trained, trained, and trained to be the best M119 howitzer section in all of the 101st Airborne Division, also had a deployment to Afghanistan
-                    </p>
-                </div>
-
-                <div class="job">
-                    <h3>Cannon Crewmember for 3/16FAR, 2BCT/4ID, Colorado</h3>
-                    <p>
-                        December 2007 - December 2009
-                    </p>
-                    <p>
-                        Trained, trained, and trained on the M109A6 howitzer. Also had a deployment to Iraq
-                    </p>
-                </div>
-
-                <div class="job">
-                    <h3>Private for US Army, Okalahoma</h3>
-                    <p>
-                        July 2007 - December 2007
-                    </p>
-                    <p>
-                        Basic Combat Training and Advanced Individual Training
-                    </p>
-                </div>
-
-            </div>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-
-            <div class="project-card">
-                <h3>This website</h3>
-                <p>
-                    This is the website you're looking at right now. It's built from scratch with HTML, CSS, and a lot of help from the internet.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Random Password Generator</h3>
-                <p>
-                    A lightweight program written in Python that generates random passwords with options to choose from for further customization and will not log your password.
-                    You can find it on my GitHub <a href="https://github.com/XnosmirC/RandomPasswordGenerator" target="_blank">here</a> or on my itch.io <a href="https://crimsonx89.itch.io/rpg1-0" target="_blank">here</a>.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Ubuntu LTS Server</h3>
-                <p>
-                    I took my old desktop computer and turned it into a server running Ubuntu LTS. I also set up an OpenVPN server on it for fun.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Takt Timer</h3>
-                <p>
-                    A simple program written in Python or HTML that counts down the time and items created or finished. You can find it on my GitHub <a href="https://github.com/XnosmirC/Takt-Time" target="_blank">here</a>.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Random Game Launcher (WIP)</h3>
-                <p>
-                    A program written in Python that attempts to randomly launch a game on your system. It currently launches any `.exe` in the specified directory. Find it on my GitHub <a href="https://github.com/XnosmirC/Random-Game-Generator" target="_blank">here</a>.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Console Refurbishment and Modding</h3>
-                <p>
-                    I like to tinker and solve puzzles. I've worked on several console refurbishments and mods—one of my favorites being my original GBA, rebuilt with a backlit IPS screen, new shell, rechargeable USB-C battery, and new buttons. You can find that project <a href="https://www.facebook.com/profile.php?id=61563477784189" target="_blank">here</a>.
-                </p>
-            </div>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <p>
-                Chattanooga State Community College - Welding Technologies - 2019
-            </p>
-
-            <h2>Coursera Certifications</h2>
-            <p>
-                <a href="https://www.credly.com/badges/5540b261-5081-40d9-9b70-1a537237cb20/linked_in_profile" target="_blank">Google Cybersecurity Professional Certificate</a>
-            </p>
-            <p>
-                <a href="https://www.coursera.org/account/accomplishments/specialization/4QFP7CXLL86E" target="_blank">Google IT Automation with Python Certificate</a>
-            </p>
-            <p>
-                <a href="https://coursera.org/share/e46f0ecd1fa40b40bbcfd34811518eb2" target="_blank">Google AI Essentials Certificate</a>
-            </p>
-        </section>
-
-        <section id="Additional Notes">
-            <h2>Additional Notes</h2>
-            <p>
-                I'm currently looking for a job in the tech industry, preferably in cybersecurity or IT. I have a passion for learning and am always eager to take on new challenges.
-            </p>
-
-            <h2>Job Requirements</h2>
-            <li>I am willing to work remotely.</li>
-            <li>I am not willing to relocate.</li>
-            <li>I will not work for less than $18/hour USD.</li>
-            <li>I am will not work for "Sales" or "Commission".</li>
-            <li>I am willing to learn new things.</li>
-            <li>I will not commute longer than 45 minutes one way from Waynesville, MO.</li>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>
-                If you're interested in giving me a job, please use the form below. If not, please don't waste my time.
-            </p>
-            <form action="https://formspree.io/f/manjpnee" method="POST">
-                <label for="name">Your Name</label>
-                <input type="text" name="name" id="name" required />
-
-                <label for="email">Your Email</label>
-                <input type="email" name="email" id="email" required />
-
-                <label for="message">Your Message</label>
-                <textarea name="message" id="message" rows="6" required></textarea>
-
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <p>
-            &copy; 2025 CrimsonX. All rights reserved.
-        </p>
-        <a href="https://github.com/XnosmirC" target="_blank">GitHub</a>
-        &nbsp;|&nbsp;
-        <a href="https://linkedin.com/in/brandon-willenborg-9a107965" target="_blank">LinkedIn</a>
-        &nbsp;|&nbsp;
-        <a href="https://crimsonx89.itch.io" target="_blank">Itch.io</a>
-    </footer>
+  <footer>
+    <p>&copy; 2025 CrimsonX. All rights reserved.</p>
+    <a href="https://github.com/XnosmirC" target="_blank">GitHub</a>
+&nbsp;|&nbsp;
+<a href="https://linkedin.com/in/brandon-willenborg-9a107965" target="_blank">LinkedIn</a>
+&nbsp;|&nbsp;
+<a href="https://crimsonx89.itch.io" target="_blank">Itch.io</a>
+  </footer>
 </body>
 </html>
