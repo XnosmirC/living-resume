@@ -32,8 +32,8 @@
   const nameEl = document.getElementById('floatingName');
   const navEl = document.getElementById('floatingNav');
 
-  window.addEventListener('scroll', () => {
-    const offset = window.scrollY;
+window.addEventListener('scroll', () => {
+    const offset = window.scrollY * 0.25; // moves at 25% scroll speed
 
     nameEl.style.transform = `translateY(${offset}px)`;
     navEl.style.transform = `translateY(${offset}px)`;
