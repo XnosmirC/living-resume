@@ -6,17 +6,17 @@
   <title>Lilianna Willenborg's Living Resume</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
 
-</script>
 <body>
-  <header class="hero">
+  <header class="hero" id="floatingName">
     <h1>Lillianna Willenborg</h1>
     <p>Veteran • Tech Enthusiast • Career Student</p>
   </header>
 
-<script>
-  AOS.init();
-</script>
+  <script>
+    AOS.init();
+  </script>
 
   <nav class="navbar">
     <ul>
@@ -28,6 +28,17 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
+
+  <script>
+    const el = document.getElementById('floatingName');
+    const startTop = el.offsetTop;
+
+    window.addEventListener('scroll', () => {
+      const offset = window.scrollY - startTop;
+      el.style.marginTop = offset > 0 ? offset + 'px' : '0px';
+    });
+  </script>
+
 
 <div class="container">
 
@@ -83,11 +94,6 @@
     <li>Cross-Functional Teamwork & Communication</li>
     <li>Leadership & Adaptability</li>
   </ul>
-
-  <p>
-    *More skills can be found on my
-    <a href="https://www.linkedin.com/in/lillianna-willenborg-9a107965/" target="_blank">LinkedIn</a> profile.
-  </p>
 </section>
   </main>
 
@@ -201,8 +207,6 @@
       <div class="project-card">
         <h3>Random Password Generator</h3>
         <p>A lightweight program written in Python that generates random passwords with options to choose from for further customization and will not log your password.
-          You can find it on my GitHub <a href="https://github.com/XnosmirC/RandomPasswordGenerator" target="_blank">here</a>.
-        </p>
       </div>
 
       <div class="project-card">
@@ -212,24 +216,14 @@
 
       <div class="project-card">
         <h3>Takt Timer</h3>
-        <p>A simple program written in Python or HTML that counts down the time and items created or finished. You can find it on my GitHub <a href="https://github.com/XnosmirC/Takt-Time" target="_blank">here</a>.</p>
+        <p>A simple program written in Python or HTML that counts down the time and items created or finished. You can find it on my GitHub page.</p>
       </div>
 
       <div class="project-card">
         <h3>Console Refurbishment and Modding</h3>
-        <p>I like to tinker and solve puzzles. I've worked on several console refurbishments and mods — one of my favorites being my original GBA, rebuilt with a backlit IPS screen, new shell, rechargeable USB-C battery, and new buttons. You can find that project <a href="https://www.facebook.com/profile.php?id=61563477784189" target="_blank">here</a>.</p>
+        <p>I like to tinker and solve puzzles. I've worked on several console refurbishments and mods — one of my favorites being my original GBA, rebuilt with a backlit IPS screen, new shell, rechargeable USB-C battery, and new buttons.
       </div>
 
-<div class="project-card">
-  <h3>Idle RPG Evolution – From Python to JavaScript</h3>
-  <p>Originally started as <a href="https://github.com/XnosmirC/IdleTextGame" target="_blank">IdleTextGame</a>, a Python-based idle experience with text-only mechanics and modular upgrades. The project is now evolving into a fully animated idle RPG in JavaScript, featuring sprite-based enemies, prestige loops, and shop mechanics.</p>
-  <p>Development highlights:
-    <ul>
-      <li>Refactored core logic from procedural Python to modular JavaScript systems</li>
-    </ul>
-    Stay tuned for future branches that showcase this evolution, and explore the original concept on <a href="https://github.com/XnosmirC/IdleTextGame" target="_blank">GitHub</a>.
-  </p>
-</div>
     </section>
 
     <section id="education">
