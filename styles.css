@@ -1,13 +1,15 @@
 #floatingName {
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     top: 0;
     text-align: center;
-    transition: margin-top 0.15s ease-out;
+    transition: transform 0.15s ease-out;
+    pointer-events: none;
 }
 
 body {
+    padding-top: 150px;
     background-color: #121212;
     color: #f1f1f1;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

@@ -30,13 +30,11 @@
   </nav>
 
   <script>
-    const el = document.getElementById('floatingName');
-    const startTop = el.offsetTop;
+const el = document.getElementById('floatingName');
 
-    window.addEventListener('scroll', () => {
-      const offset = window.scrollY - startTop;
-      el.style.marginTop = offset > 0 ? offset + 'px' : '0px';
-    });
+window.addEventListener('scroll', () => {
+  el.style.transform = `translateY(${window.scrollY}px)`;
+});
   </script>
 
 
