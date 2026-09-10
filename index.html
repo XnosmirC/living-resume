@@ -28,13 +28,17 @@
     </ul>
   </nav>
 
-  <script>
-const el = document.getElementById('floatingName');
+<script>
+  const nameEl = document.getElementById('floatingName');
+  const navEl = document.getElementById('floatingNav');
 
-window.addEventListener('scroll', () => {
-  el.style.transform = `translateY(${window.scrollY}px)`;
-});
-  </script>
+  window.addEventListener('scroll', () => {
+    const offset = window.scrollY;
+
+    nameEl.style.transform = `translateY(${offset}px)`;
+    navEl.style.transform = `translateY(${offset}px)`;
+  });
+</script>
 
 
 <div class="container">
