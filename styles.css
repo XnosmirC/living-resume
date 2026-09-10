@@ -8,6 +8,23 @@
     pointer-events: none;
 }
 
+#floatingNav {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1500;
+    transition: transform 0.15s ease-out;
+    pointer-events: auto;
+}
+
+#floatingNav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
 body {
     padding-top: 150px;
     background-color: #121212;
