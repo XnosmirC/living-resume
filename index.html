@@ -37,15 +37,18 @@
   </nav>
 
 <script>
-  const nameEl = document.getElementById('floatingName');
-  const navEl = document.getElementById('floatingNav');
 
-window.addEventListener('scroll', () => {
-    const offset = window.scrollY * 0;
+  if (window.innerWidth > 768) {
+      const nameEl = document.getElementById('floatingName');
+      const navEl = document.getElementById('floatingNav');
 
-    nameEl.style.transform = `translateY(${offset}px)`;
-    navEl.style.transform = `translateY(${offset}px)`;
-  });
+      window.addEventListener('scroll', () => {
+          const offset = window.scrollY * 0;
+
+          nameEl.style.transform = `translateY(${offset}px)`;
+          navEl.style.transform = `translateY(${offset}px)`;
+      });
+  }
 </script>
 
 <script>
