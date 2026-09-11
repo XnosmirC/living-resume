@@ -51,7 +51,7 @@ html.light-mode #floatingNav a {
    FLOATING NAME + NAV
    ============================ */
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .float-desktop {
         position: static !important;
         margin-top: 0 !important;
